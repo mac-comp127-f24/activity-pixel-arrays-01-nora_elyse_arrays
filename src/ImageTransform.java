@@ -48,14 +48,14 @@ public class ImageTransform {
     }
 
     public static void main(String[] args) {
-        Image srcImage = new Image("dog.png");
+        Image srcImage = new Image("dog2.jpeg");
     
         Scanner scan = new Scanner(System.in);
         System.out.println("How would you like to transform your image?");
         System.out.println("1. Lighten");
         System.out.println("2. Green Shift");
         System.out.println("3. Invert");
-        System.out.println("4, Greyscale");
+        System.out.println("4. Greyscale");
 
         System.out.print("> ");
         int choice = scan.nextInt();
